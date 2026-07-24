@@ -1,0 +1,46 @@
+# Netlify redirects (Vercel uses vercel.json). Keep in sync with vercel.json.
+# v1 → v2 permanent (301) redirects.
+/agentic-audit                       /scope-your-project            301
+/contact                             /scope-your-project            301
+/partners                            /platform-partners             301
+
+/platform                            /solutions                     301
+/platform/revenue-operating-system   /how-we-work                   301
+/platform/agentic-revenue-operations /agents/agentic-layer          301
+/platform/autonomous-revenue-organization /solutions/agentic-transformation 301
+/platform/*                          /solutions                     301
+
+/services                            /solutions                     301
+/services/salesforce-consulting      /platform-partners/salesforce  301
+/services/hubspot-consulting         /platform-partners/hubspot     301
+/services/anthropic-consulting       /platform-partners/anthropic   301
+/services/aircall-consulting         /platform-partners/aircall     301
+/services/managed-services           /solutions/managed-services    301
+/services/ai-agent-development       /solutions/custom-agent-development 301
+/services/workflow-automation        /solutions/gtm-systems-implementation 301
+/services/*                          /solutions                     301
+
+/solutions/revenue-operations        /solutions/managed-services    301
+/solutions/crm-transformation        /solutions/gtm-systems-implementation 301
+/solutions/ai-readiness              /solutions/agentic-transformation 301
+/solutions/revenue-automation        /solutions/gtm-systems-implementation 301
+/solutions/ai-agents                 /agents/marketplace            301
+/solutions/revenue-transformation    /solutions/agentic-transformation 301
+
+/research                            /insights                      301
+/research/insights                   /insights                      301
+/research/insights/*                 /insights/:splat               301
+/research/playbooks                  /insights                      301
+/research/playbooks/*                /insights                      301
+/research/reports                    /insights                      301
+/research/reports/*                  /insights                      301
+/research/events                     /insights                      301
+/research/case-studies               /customer-stories              301
+/research/case-studies/*             /customer-stories/:splat       301
+/work                                /customer-stories              301
+/work/*                              /customer-stories/:splat       301
+
+/company                             /about                         301
+/company/leadership                  /about                         301
+/company/global-team                 /about                         301
+/company/careers                     /about                         301
